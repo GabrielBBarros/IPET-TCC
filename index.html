@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Animate.css -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+    
+    <!-- Google Font -->
+    
+    <script type="text/javascript" src="JS/1.js"></script>
+    <script type="text/javascript" src="JS/jquery-3.1.1.min.js"></script>
+
+    <link rel="shortcut icon" href="img/Ipet.png" />
+
+     <!-- Compiled and minified CSS -->
+   
+    <title>Ipet - Buscador de Pets</title>
+  </head>
+  <body>
+    
+
+    <header><!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-success fixed-top">
+        <div class="container">
+          <div class="animate__animated animate__fadeInLeft">     
+          <a href="index.html" class="navbar-brand">
+            <img src="img/Ipet.png" width="142">
+          </a>
+          </div>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span style="color: white"><i class="fas fa-bars fa-2x"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal"> 
+            <ul class="navbar-nav ml-auto" style="display:flex;justify-content:center;align-items:center";>
+              <li class="nav-item" >
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="contatos.html" class="nav-link">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a href="animais.html" class="nav-link">Animais</a>
+              </li>
+              <li class="nav-item">
+                <a href="quem_somos.html" class="nav-link">Quem somos</a>
+              </li>
+              <li class="nav-item" id="a">
+                <a href="login.html" class="btn btn-outline-light ml-4">Entrar</a>
+              </li>
+              <li class="nav-item" id="a">
+                <a href="opcoes.php" class="btn btn-outline-light ml-4">Feed de Animais</a>
+              </li>
+              
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+    </header><!--/fim Cabecalho -->
+
+ <br><br><br><br>
+
+
+    <section id="casa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+
+            <h1 class="display-4">Procure o pet ideal para você!</h1>
+            <h3 align="justified" id="sub">Nós do Ipet somos apaixonados por animais e queremos
+            arranjar um bom lar para eles. Que tal dar uma chance?</h3>
+            <form class="mt-4 mb-4">
+              <div class="input-group input-group-lg">
+                
+              
+              <div class="input-group-append">
+                <a href="user_form.html"><button type="button" class="btn btn-success">Cadastre-se</button></a>
+              </div>  
+          </div>
+            </form>
+            </div>
+          </div>
+          <div class="animate__animated ">
+          <div class="col-md-6 d-none d-md-block"><img src="CachorroGabs.png" height="500px" width="500px"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+         <section class="caixa">
+          <div class="animate__animated animate__backInLeft animate__delay-1s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="Praticidade.jpg" class="img-fluid"> 
+            <h4 align="center">Praticidade</h4>
+            <p>Não importa onde estiver, o Ipet sempre estará perto de você. Com poucos
+            cliques é possível econtrar o animalzinho de estimação ideal e de maneira totalmente gratuita.</p>
+          </div>
+
+           <div class="col-md-4"> <img src="Adoção.jpg" class="img-fluid"> 
+            <h4 align="center">Adoção</h4>
+            <p>Existem muitos animais sem um lar vagando pelas ruas todos os dias e sem um dono para amar. Que tal ao invés de deixá-los abandonados, dar uma chance a eles.</p>
+          </div>
+
+            <div class="col-md-4">
+               <img src="Região.jpg" class="img-fluid"> 
+            <h4 align="center">Votorantim e região</h4>
+            <p>Nosso projeto está em funcionamento em Votorantim-SP, mas
+            com visão de expandir para outras regiões.</p>
+          </div>
+          </div>  
+      </div>
+      </div>
+    </section>
+
+
+
+    <section class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex">
+            <div class="align-self-center" align="center">
+              <h1>Fatos e fotos</h1>
+          <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--Carousel -->
+
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+
+              <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+
+              <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+
+              <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+
+            </ol>
+
+            <div class="carousel-inner"><!--Inner -->
+              
+              <div class="carousel-item active">
+                <img src="img/d1.jpg" height="300px" width="1200px" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/rex1.jpg"  height="400px" width="1200px"  class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/dog1.jpg"  height="400px" width="1200px"  class="img-fluid">
+              </div>
+
+            </div><!--/Inner -->
+
+            <!-- Controles -->
+            <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div><!--/Carousel -->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="caixa">
+      <div class="container" >
+        <div class="row" style="display:flex;justify-content:center;align-items:center";>
+          <div class="col-md-3" >
+            <img src="cachorrogabs.png" height="300px" width="300px">
+            <br> 
+            <h4 align="center">Cachorros</h4>
+            <p>Não sabe qual bichino adotar? Que tal o bom e velho amigo do homem: o cachorro. 
+            Aqui todos os cachorros estão em busca de um amigo.</p>
+          </div>
+
+           <div class="col-md-3"> <img src="img/gato.png" height="250px" width="250px"> 
+            <h4 align="center">Gatos</h4>
+            <p>Se existe uma coisa em toda a internet são os gatos, e adivinha? Eles
+            estão presentes aqui também no Ipet, prontos para deixar sua vida mais doce e
+           mais apaixonado por vídeos de gato.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="Papagaio.png" height="250px" width="200px"> 
+            <h4 align="center">Pássaros</h4>
+            <p>Um passarinho me contou que aqui no Ipet estão os melhores pássaros em adoção e ainda com várias espécies de escolha; é melhor escolher um aqui do que dois em outro site.</p>
+          </div>
+
+           <div class="col-md-3"> <img src="img/iguana2.png"  height="230px" width="280px"> 
+            <h4 align="center">Outros</h4>
+            <p>Trabalhamos com outros animais, tais como: roedores, iguanas e chinchilas.
+            Há uma grande preocupação quanto à adoção ilegal de animais proibidos pelo IBAMA, por isso tais espécies são terminantemente proibidas por aqui.</p>
+          </div>
+
+
+                        
+      </div>
+    </section>
+
+<br><br><br>
+      <section class="caixa">
+        <div class="animate__animated ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <center><i class="fas fa-paw" style="font-size: 285px;"></i></center>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Você possui uma ONG de animais?</h2>
+              <p>Se a sua resposta for sim, o Ipet vai lhe ajudar a colocar 
+              seus animais para adoção em pouco tempo, você pode nos ajudar. 
+              Não nos importamos com o porte ou a idade, todos podem ficar online.</p>
+              <a href="ong.html" class="btn btn-success">Veja mais</a><br><br>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+    </section>
+    <br><br><br>
+
+        <section class="caixa" style="margin-left: 30px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+
+            <div class="card" style="width: 18rem;">
+              <img src="bob.jpeg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>Porte de cães</b></h5>
+                <p class="card-text" style="text-align: left;">O porte de um cão pode ser um fator extremamente considerável no momento em que vamos adotá-lo.</p>
+                <center><a href="texto1.html" class="btn btn-success">Veja mais</a></center>
+              </div>
+            </div>
+          </div>
+
+
+
+
+           <div class="col-md-4"> 
+            <div class="card" style="width: 18rem;">
+              <img src="gatof.jpeg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>A inteligência dos gatos</b></h5>
+                <p class="card-text" style="text-align: left;">Todos sabemos que os gatos são criaturas espertas, e até mesmo traiçoeiras, mas o quão inteligente eles são?</p>
+                <center><a href="texto2.html" class="btn btn-success">Veja mais</a></center>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="papagaiog.jpeg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>Os papagaios</b></h5>
+                <p class="card-text" style="text-align: left;">Papagaios são aves extremamente populares que possuem muitas características qua talvez você não conheça.</p>
+                <center><a href="texto3.html" class="btn btn-success">Veja mais</a></center>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="abandono.jpeg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>Abandono de animais</b></h5>
+                <p class="card-text">A quarentena durante a pandemia do novo coronavírus também tem impactado negativamente a vida dos pets.</p>
+                <center><a href="texto4.html" class="btn btn-success">Veja mais</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="salsicha.jpeg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>Os daschunds</b></h5>
+                <p class="card-text">Conhecido no Brasil como “salsicha”, o daschund é uma raça de cão com diversas curiosidades.</p>
+                <center><a href="texto5.html" class="btn btn-success">Veja mais</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/dog2.jpg" width="285px" height="194px">
+               <div class="card-body">
+               <h5 class="card-title" align="center"><b>É normal conversar com animais?</b></h5>
+                <p class="card-text">Todo mundo já conversou com seu animal de estimação. Mas será que isso nos torna loucos?</p>
+                <center><a href="texto6.html" class="btn btn-success">Veja mais</a></center>
+  
+              </div>
+            </div>
+          </div>
+          <br><br><br><br>
+		   <h2 align="center">Não compre um animal, adote-os e contribua conosco e com os pets que mais necessitam</h2>
+       <br><br>
+
+          <script>
+           function typeWriter(elemento) {
+     const textoArray = elemento.innerHTML.split('');
+     elemento.innerHTML = '';
+     for(let i = 0; i < textoArray.length; i++) {
+       setTimeout(() => elemento.innerHTML += textoArray[i], 50 * i);
+     }
+   }
+          const titulo = document.querySelector('h3');
+          typeWriter(titulo);
+        </script>
+      </div>
+      
+      </div>
+      
+    </section>
+    </center>
+    <footer >
+      <footer >
+     <div class="container">
+       <div class="row">
+         <div class="col-md-2">
+           <a href="index.html"><img src="img/Ipet.png" width="142"></a>
+           <br>
+            <br>
+             <br>
+             
+         </div>
+         <div class="col-md-2">
+           <h4>Animais</h4>
+           <ul class="navbar-nav">
+             <li><a href="animais.html">Animais</a></li>
+             <li><a href="politica.html">Política do site</a></li>
+           </ul>
+         </div>
+         <div class="col-md-2">
+            <h4>Comunidade</h4>
+           <ul class="navbar-nav">
+             <li><a href="quem_somos.html">Quem somos</a></li>
+             <li><a href="contatos.html">Contato</a></li>
+             <li><a href="index.html">Home</a></li>
+           </ul>
+         </div>
+         <div class="col-md-2">
+            <h4>ONGs</h4>
+           <ul class="navbar-nav">
+           </ul>
+         </div>
+         <div class="col-md-4">
+              <h4>Redes Sociais</h4>
+           <ul class="navbar-nav" id="social">
+             <li><a href="https://www.instagram.com/projetotccipet/"><i class="fab fa-instagram"></i></a></li>
+             <li><a href="ipet.tccetec@gmail.com"><i class="fas fa-envelope"></i></a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </footer>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <script type="text/javascript" src="JS/1.js"></script>
+    <script type="text/javascript" src="JS/jquery-3.1.1.min.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="JS/pace-master/pace.min.js"></script>
+  </body>
+</html>

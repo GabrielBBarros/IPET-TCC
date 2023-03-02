@@ -1,0 +1,100 @@
+body {
+  color:black;
+  font-style: bold; 
+  font-family: 'Bebas Neue', cursive;
+  background-image: url('../dog.jpg');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+input {
+  color: #0095FB
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  font-size: 1.2em;
+}
+p{
+  font-size: 2em/
+}
+button{
+  height: 70px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+input{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+footer p a {
+  margin: 5px 15px;
+
+}
+footer{
+  background-color:  #28a745;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+footer h4{
+  
+  font-size: 1.4em;
+  text-transform: uppercase;
+
+}
+footer .navbar-nav a{
+  color: #e5e5e5;
+  font-size: 1.2em;
+
+
+}
+footer .navbar-nav a:hover{
+  color: #ffff80;
+  text-decoration: none;
+  
+}
+footer ul{
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin: 0px 5px;
+ }
+
+a:hover{
+  text-decoration: none;
+  color: #6EE4B9 ;
+}
+a{
+  color: green;
+}
+
+#nav-principal a{
+  color: white;
+}
+#nav-principal a:hover{
+  text-decoration: none;
+  font-size: 20px;
+}
+#a a:hover{
+  color: green;
+}
+#social{
+  font-size: 1.9em;
+  color: blue;
+}
+.w{
+  height: 1px;
+  width: 1px;
+}
+
+
